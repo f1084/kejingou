@@ -1,0 +1,19 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    background-image: radial-gradient(49% 85%, #202956 0%, #0B0E39 86%);
+    background-repeat: no-repeat;
+}
+p{
+    margin: 0;
+    padding:0;
+}
+ul{
+	padding: 0;
+	margin: 0;
+}
+li{
+	list-style: none;
+}

@@ -1,0 +1,224 @@
+/* 头部导航样式 */
+header{
+    height: 100px;
+    width:100%;
+
+    background-image: linear-gradient(-180deg, #222A57 0%, #151A44 100%);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+    
+    position: fixed;
+    top:0;
+    z-index: 999;
+}
+.nav-wrapper{
+    width:1100px;
+    height: 100px;
+    margin: 0 auto;
+}
+/*logo样式*/
+.site-logo{
+	display: inline-block;
+    height: 82px;
+    width: 160px;
+    margin: 9px 83px 9px 9px;
+    background: url(../img/header/ic-logo-kjg.png);
+    float: left;
+}
+.site-logo a{
+	display: inline-block;
+	height: 82px;
+    width: 160px;
+}
+/*导航按钮样式*/
+.m-navbar{
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	float: left;
+}
+.nav-wrapper ul li{
+	height: 100px;
+	width: 100px;
+	display: inline-block;
+	list-style: none;
+}
+.nav-wrapper ul li a{
+	height: 100px;
+	width: 100px;
+	display: inline-block;
+	text-decoration: none;
+	line-height: 100px;
+	text-align: center;
+	
+	font-family: MicrosoftYaHei;
+	font-size: 16px;
+	color: #BBBBBB;
+}
+.active a{
+	background-image: url(../img/header/bg-light.png);
+	background-repeat: no-repeat;
+	background-position:bottom;
+	color: #4262B5 !important;
+}
+.nav-wrapper ul li a:hover{
+	background-image: url(../img/header/bg-light.png);
+	background-repeat: no-repeat;
+	background-position:bottom;
+	color: #4262B5;
+}
+/*搜索框样式*/
+.search-box{
+	height: 30px;
+	width: 250px;
+	margin: 35px 10px 35px 30px;
+	background: #34327E;
+	border-radius: 100px;
+	float: left;
+	background-image: url(../img/header/ic-search.png);
+	background-position: 10px 8px;
+	background-repeat: no-repeat;
+}
+.search-box input[type=text]{
+	border: none;
+	height: 28px;
+	width: 200px;
+	background: #34327E;
+	outline: none;
+	margin-left: 30px;
+}
+/*登录|注册区样式*/
+.sign-io{
+	display: inline-block;
+	height: 100px;
+	float: right;
+	color: #BBBBBB;
+}
+.sign-io a{
+	text-align: center;
+	text-decoration: none;
+	line-height: 100px;
+	padding: 0 10px;
+	font-family: MicrosoftYaHei;
+	font-size: 16px;
+	color: #BBBBBB;
+	letter-spacing: 0;
+}
+/* 网页内容区样式 */
+.bodyer{
+    height: 800px;
+    width: 1200px;
+    margin: 0 auto;
+}
+/*轮播样式*/
+.banner{
+	flex-direction: column;
+	justify-content: center;/*定义主轴的居中*/
+	align-items:center;
+	margin-top: 120px;
+	height: 340px;
+	width: 1200px;
+}
+.banner a{
+	margin-top: 125px;
+	height: 90px;
+	width: 40px;
+	background-repeat: no-repeat;
+}
+.pre{
+	float: left;
+	background: url(../img/bodyer/banner/ic-left-Arrow1.png);
+}
+.next{
+	float: right;
+	background: url(../img/bodyer/banner/ic-Right-Arrow1.png);	
+}
+.pre:hover{
+	background: url(../img/bodyer/banner/ic-left-Arrow2.png);
+}
+.next:hover{
+	background: url(../img/bodyer/banner/ic-Right-Arrow2.png);	
+}
+.img-banner{
+	height: 340px;
+	width: 1100px;
+	background: rgba(0,0,0,0.3);
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+	border-radius: 4px;
+	margin: 0 10px;
+	display: inline-block;
+}
+.main-banner{
+	height: 312px;
+	width: 648px;
+	margin: 14px 5px 14px 31px;
+	float: left;
+	z-index: 999;
+}
+.main-banner img{
+}
+.sub-banner{
+	margin: 0 15px;
+	height: 340px;
+	width: 382px;
+	display: inline-block;
+}
+.banner-title{
+	padding: 5px;
+	height: 60px;
+	width: 382px;
+}
+.banner-title h3{
+	display: inline-block;
+	margin: 0;
+	color: #fff;
+	font-family: MicrosoftYaHei;
+	font-size: 18px;
+	letter-spacing: 0;
+	line-height: 60px;
+}
+.banner-title span{
+	float: right;
+	background-image: ;
+}
+.sub-banner ul li{
+	opacity: 0.7;
+}
+.active-banner{
+	opacity: 1 !important;
+}
+.sub-banner ul li a img{
+	display: inline-block;
+	float: left;
+	height: 105px;
+	margin-top: 5px;
+	margin-left: 5px;
+	width: 180px;
+}
+/*footer*/
+footer{
+	height: 200px;
+    width: 100%;
+    background-image: linear-gradient(-180deg, #040824 5%, #121640 100%);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+}
+.footer{
+    width: 1100px;
+    height: 200px;
+    margin: 0 auto;
+}
+.about{
+	float: left;
+}
+.site-info{
+    height: 30px;
+    width: 100%;
+    background: #0B0504;
+}
+.site-info p{
+    font-family: MicrosoftYaHei;
+    font-size: 12px;
+    color: #B5B5B5;
+    letter-spacing: 0;
+    line-height: 30px;
+    text-align: center;
+}
