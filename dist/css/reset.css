@@ -3,12 +3,18 @@ body{
     margin: 0;
     width: 100%;
     height: auto;
-    background-image: radial-gradient(49% 85%, #202956 0%, #0B0E39 86%);
+    background: #282624;
     background-repeat: no-repeat;
+}
+a,p,h3,h4,b,span{
+	font-family: MicrosoftYaHei;
 }
 p{
     margin: 0;
     padding:0;
+}
+a{
+	text-decoration: none;
 }
 ul{
 	padding: 0;
