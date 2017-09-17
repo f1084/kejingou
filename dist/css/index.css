@@ -212,11 +212,162 @@ header .site-logo{
     background-repeat: no-repeat;
     background-position: 0px;
 }
+/*推荐区样式*/
+.recommender{
+	margin-top:20px;
+	width: 1200px;
+	height: auto;
+}
+.recommender-banner{
+	height: auto;
+	width: 1100px;
+	margin: 0 auto;
+}
+.fisrt-recommender{
+	display: inline-block;
+	height: 250px;
+	width:544px;
+}
+.fisrt-img{
+	height: 210px;
+	width: 544px;
+	overflow: hidden;
+	display: block;
+	background-image: url(../img/bodyer/recommender/img-2.png);
+	background-position: -3px -2px;
+}
+.recommender-title{
+	height:40px;
+	width:544px;
+	color: #2C2E2E;
+	background: #43413E;
+}
+.other-recommender-title{
+	height:40px;
+	width:274px;
+	color: #2C2E2E;
+	background: #43413E;
+}
+.fisrt-recommender p{
+	line-height: 40px;
+	background: #FEC00D;
+	height: 40px;
+	display: inline-block;
+	padding: 0 10px;
+	font-size: 16px;
+}
+.fisrt-recommender i{
+	line-height: 40px;
+	font-size: 14px;
+	color: #fff;
+	float: right;
+	margin-right: 10px;
+	font-style: normal;
+}
+.second-recommender,.third-recommender{
+	width: 270px;
+	height: 210px;
+	display: inline-block;
+}
+.other-recommender-title p{
+	line-height: 40px;
+	background: #FEC00D;
+	height: 40px;
+	display: inline-block;
+	padding: 0 10px;
+	font-size: 16px;
+}
+.other-recommender-title i{
+	line-height: 40px;
+	font-size: 14px;
+	color: #fff;
+	float: right;
+	margin-right: 10px;
+	font-style: normal;
+}
+.second-img{
+	height: 210px;
+	width: 274px;
+	overflow: hidden;
+	display: block;
+	background-image: url(../img/bodyer/recommender/img-3.png);
+	background-position: -3px -2px;
+}
+.third-img{
+	height: 210px;
+	width: 274px;
+	overflow: hidden;
+	display: block;
+	background-image: url(../img/bodyer/recommender/img-4.png);
+	background-position: -3px -2px;
+}
 /*神评论区块样式*/
 .commenter{
 	height: auto;
 	width: 1100px;
 	margin: 0 auto;
+}
+.commenter-list-wrap{
+	width: 1100px;
+	height: auto;
+}
+.comment-list-left{
+	width: 50%;
+	display: inline-block;
+}
+.comment-list-left div{
+	width: 49%;
+	display: inline-block;
+}
+.comment-list-left div h3,.score-list-right h3{
+	color: #fff;
+}
+.comment-list-left div ul li a,.comment-list-left div ul li span{
+	font-size: 12px;
+	color: #DBDBDB;
+	letter-spacing: 1px;
+	line-height: 25px;
+}
+.comment-list-left div ul li a{
+	padding-left: 10px;
+}
+.comment-list-left div ul li span i{
+	padding-left: 24px;
+	background-image: url(../img/bodyer/best-rank/ic-like.png);
+	background-repeat: no-repeat;
+	height: 20px;
+    display: inline-block;
+}
+.comment-list-left div ul li span em{
+	padding-left: 18px;
+	background-image: url(../img/bodyer/banner/ic-Likes-g.png);
+	background-repeat: no-repeat;
+	height: 20px;
+    display: inline-block;
+}
+.comment-list-left div ul li span i,.comment-list-left div ul li span em{
+	color: #FEC00D;
+	font-style: normal;
+}
+.score-list-right{
+	display: inline-block;
+	width: 49%;
+}
+.score-list-right ul{
+	display: inline-block;
+	width: 49%;
+}
+.score-list-right ul li{
+	line-height: 32px;
+}
+.score-list-right ul li span{
+	font-size: 14px;
+	color: #fff;
+}
+.score-list-right ul li a{
+	font-size: 14px;
+	color: #dbdbdb;
+	padding-left: 15px; 
 }
 .block-title h3{
 	color: #fff;
